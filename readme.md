@@ -5,12 +5,31 @@ This Repository Contains All The Effective Algorithms Of Encryption &amp; Decryp
   2. pyDES
   3. Tripple DES
   4. GnUPG
-  5. AES
-  6. RSA
+  5. AES(Advanced Encryption Standard)
+  6. RSA(Rivest–Shamir–Adleman)
   7. Blowfish
   8. ARC4
   9. Fernet
   10. Simple-crypt
+  
+## Transposition File Cipher Algorithm Example
+Encryption
+Input : Geeks for Geeks
+Key = HACK
+Output : e  kefGsGsrekoe_
+Decryption
+Input : e  kefGsGsrekoe_
+Key = HACK
+Output : Geeks for Geeks 
+
+Encryption
+Input :  Geeks on work
+Key = HACK
+Output : e w_eoo_Gs kknr_
+Decryption
+Input : e w_eoo_Gs kknr_
+Key = HACK
+Output : Geeks on work
 
 ## Uploading files onto IPFS
 IPFS is the Inter PLanetary File System. It is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system.
